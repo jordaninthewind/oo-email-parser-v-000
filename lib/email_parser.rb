@@ -11,7 +11,7 @@ attr_accessor :list
     @list = list
   end
 
-  def parse(list)
+  def parse
     @list.split(", ")
   end
 
