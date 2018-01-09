@@ -8,8 +8,7 @@ class EmailParser
 attr_accessor :list
 
   def parse(list)
-
-
+    list.split(",")
   end
 
 end
