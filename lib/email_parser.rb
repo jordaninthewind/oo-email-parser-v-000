@@ -12,7 +12,7 @@ attr_accessor :list
   end
 
   def parse
-    @list.scan(/,?\s/)
+    @list.scan(/\w+@\w+.\w+/)
   end
 
 end
