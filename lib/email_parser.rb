@@ -12,7 +12,7 @@ attr_accessor :list
   end
 
   def parse
-    @list.split(", ")
+    @list.scan(/,?\s/)
   end
 
 end
