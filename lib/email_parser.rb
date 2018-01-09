@@ -12,7 +12,7 @@ attr_accessor :list
   end
 
   def parse
-    @list.scan(/\w+@\w+.\w+/)
+    @list.scan(/\w+@\w+.\w+/).uniq
   end
 
 end
